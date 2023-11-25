@@ -62,7 +62,7 @@ function initCamera() {
   scene.add(directionalLight)
 }
 function initRenderer() {
-  renderer = new THREE.WebGLRenderer({ antialias: true, alpha: false });
+  renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
   //renderer.outputEncoding = THREE.sRGBEncoding;
   // 渲染器Renderer开启阴影计算
   renderer.setPixelRatio(window.devicePixelRatio);
